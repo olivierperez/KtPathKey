@@ -1,9 +1,9 @@
 group 'fr.o80.ktpathkey.example'
-version '1.0-SNAPSHOT'
 
 apply plugin: 'kotlin'
 
 repositories {
+    jcenter()
     mavenCentral()
 }
 
